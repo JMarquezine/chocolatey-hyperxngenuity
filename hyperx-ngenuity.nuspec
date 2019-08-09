@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>hyperx-ngenuity</id>
+    <version>5.2.8.0</version>
+    <packageSourceUrl>https://github.com/JMarquezine/chocolatey-hyperxngenuity</packageSourceUrl>
+    <owners>jmarquezine</owners>
+    <title>HyperX NGenuity Software</title>
+    <authors>Kingston Technology Corporation</authors>
+    <projectUrl>https://www.hyperxgaming.com/us/ngenuity</projectUrl>
+    <iconUrl>https://github.com/JMarquezine/chocolatey-hyperxngenuity/icons/hyperxngenuity.png</iconUrl>
+    <copyright>Copyright (c) 2019 Kingston Technology Corporation</copyright>
+    <licenseUrl>https://www.kingston.com/company/privacy</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://media.kingston.com/support/downloads/Ngenuity_Gaming_Software_Manual.pdf</docsUrl>
+    <bugTrackerUrl>https://www.kingston.com/support</bugTrackerUrl>
+    <tags>hyperxngenuity ngenuity hyperx</tags>
+    <summary>HyperX NGenuity is powerful, easy-to-use software that will allow you to personalize your HyperX products.</summary>
+    <description><![CDATA[HyperX NGenuity is powerful, easy-to-use software that will allow you to personalize your HyperX products. 
+    Set button bindings, program and store macros, assign colors to individual keys on your keyboard, 
+    or set up colors for zones or keys, adjust your audio and monitor battery life; 
+    HyperX NGenuity gives you as much control as you want. 
+    HyperX NGenuity also comes with a library of presets for the hottest games, so you can quickly choose one to install, 
+    and jump straight into the action. 
+    Be on the lookout for NGenuity support for new features and future compatible HyperX peripherals.
+    [See compatible products](https://www.hyperxgaming.com/us/ngenuity#product-gallery-related)
+    ]]>
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
